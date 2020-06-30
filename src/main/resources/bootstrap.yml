@@ -1,0 +1,8 @@
+#使用配置中心，config管理配置文件
+spring:
+  cloud:
+    config:
+      name: springcloud-cpnfig-server-01
+      profile: dev
+      label: master
+      uri: http://localhost:9003
